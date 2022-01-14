@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexbox1{
+            border: 1x solid pink;
+            height: 100px;
+            width: 100%;
+            background-color: pink;
+        }
+        .flexbox2{
+            display: flex;
+            padding: 5px;
+            flex-wrap: wrap;
+            padding-top: 5px;
+            justify-content: space-evenly;
+        }
+        .item1{
+            width: 68%;
+
+        }
+        .item2{
+            border: 1x solid blueviolet;
+            height: 600px;
+            width: 30%;
+            padding-top: 5px;
+            background-color: blueviolet;
+        }
+        .items{
+            background-color: darkcyan;
+            height: 50px;
+            width: 200px;
+            margin-top: 3px;
+        }
+        .flexbox3{
+            background-color: darkslateblue;
+            height: 100px;
+        }
+        @media(max-width:480px){
+            .item1, .items, .item2{
+                width: 100%;
+            }
+            
+        }
+        @media(max-width:1024px){
+            .item2{
+                width:100%;
+                margin-top: 400px;
+            }
+            .item1{
+                width:100%;
+                margin-left:5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flexbox1">
+        
+    </div>
+    <div class="flexbox2">
+        <div class="item1">
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+        </div>
+        <div class="item2"></div>
+    </div>
+    <div class="flexbox3">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:    0;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.nav{
+    background-color: #6ccecb;
+}
+.nav .nav-menu{
+    display: flex;
+}
+.nav .nav-menu .menu ul{
+    display: flex;
+    margin-top: 10px;
+}
+.nav .nav-menu .menu ul li{
+    list-style-type: none;
+    padding-left: 12px;
+    text-decoration: none;
+    color: #473e3f;
+    border:1px solid #473e3f;
+    margin: 5px;
+    border-radius: 8px;
+}
+.nav .nav-menu .menu ul li:hover{
+color: #f9e559;
+background-color: #ef7126;
+font-size: 20px;
+}
+.nav .nav-menu .logo{
+    width: 30%;
+    color: #ef7126;
+}
